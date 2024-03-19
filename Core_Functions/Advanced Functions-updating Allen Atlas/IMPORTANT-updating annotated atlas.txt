@@ -1,0 +1,28 @@
+Description:
+
+When a new version of the Allen annotated atlas is released, do the following:
+
+1. Download the annotated atlas file (nrrd format), and name it "annotation.nrrd"
+
+2. Go to http://api.brain-map.org/api/v2/structure_graph_download/1.json
+
+3. Copy and Paste all into notepad
+
+4. Save as "annotation_label.json"   (NOT .txt format)
+
+5. Run Step1-4.
+
+6. Having done so, Go to the folder named "ROI_shp".
+
+7. Delete all of the existing mat files within the folder.
+
+8. Move the mat files newly created in Step 1-4 into "ROI_shp" folder.
+ 
+   Step 6-8 is to replace the old version of annotated atlas with the updated one.
+
+9. Now you are done with updating Allen annotated atlas.
+
+If you have any queries, contact Jun Ho Song (jun.h.song92@gmail.com)
+
+
+
